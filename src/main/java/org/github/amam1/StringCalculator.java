@@ -4,6 +4,11 @@ package org.github.amam1;
 public class StringCalculator {
 
     public int add(String number) {
-        return 0;
+
+        if(number.equals("")){
+            return 0;
+        }
+        return Integer.parseInt(number);
+
     }
 }
