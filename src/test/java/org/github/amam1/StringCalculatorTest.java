@@ -28,6 +28,7 @@ public class StringCalculatorTest {
         assertAdd(2, "1 1");
     }
 
+
     private void assertAdd(int result, String nums) {
         assertEquals(result, calculator.add(nums));
     }
